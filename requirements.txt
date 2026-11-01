@@ -1,0 +1,6 @@
+customtkinter>=5.2.0
+pillow>=10.0.0
+nbtlib>=2.0.0
+pyyaml>=6.0
+# 可选：让「拖拽导入服务器文件夹」能用；不装也能正常开服
+tkinterdnd2>=0.3.0
