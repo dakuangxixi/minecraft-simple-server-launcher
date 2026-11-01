@@ -1,0 +1,43 @@
+# 运行时数据（绝对不要提交：存档、核心 jar、日志都在里面）
+servers/
+.trash/
+runtime/
+exports/
+cache/
+
+# 启动器/服务端生成的本地状态与配置
+launcher_state.json
+launcher_settings.json
+console_cmds.json
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.manifest
+
+# IDE
+.idea/
+.vscode/
+
+# 临时 / 调试产物
+_*.py
+_out*.txt
+_smoke*.txt
+_shot_*.png
+*.tmp
+*.part
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
