@@ -1,5 +1,7 @@
 # Minecraft 一键开服启动器
 
+[中文](README.md) | [English](README_EN.md)
+
 一个给“完全不想背命令行”的人用的 Minecraft 开服工具：新建服务器 → 下载核心 → 一键开服 → 看日志 / 装插件 / 装 Java，全在一个窗口里点完。
 
 - 版本：**1.0**（3.x 那一整串是开发版，统称 Development3.5，见 [CHANGELOG.md](CHANGELOG.md)）
@@ -49,7 +51,7 @@ pip install pyinstaller
 pyinstaller wow.spec
 ```
 
-产物是 `dist/wow.exe`（单文件、带控制台）。第一次启动会比源码慢几秒（解包），内存也会高一些。
+产物是 `dist/minecraft-simple-server-launcher.exe`（单文件、带控制台）。第一次启动会比源码慢几秒（解包），内存也会高一些。
 
 ## 网络说明
 
@@ -65,7 +67,7 @@ pyinstaller wow.spec
 
 - 只支持 Windows（大量用到 `netsh`、`taskkill`、进程路径查询等 Windows 能力）
 - 单文件、没有自动化测试目录；作者是边学边写的，代码风格以“能跑”为先
-- 目前没有启动器自更新，升级方式就是换掉 `minecraft-simple-server-launcher.py` / `wow.exe`
+- 目前没有启动器自更新，升级方式就是换掉 `minecraft-simple-server-launcher.py` / `minecraft-simple-server-launcher.exe`
 
 ## 为什么是单文件（约 1 万行）
 
