@@ -9,6 +9,14 @@
 - 形态：单个 `minecraft-simple-server-launcher.py` 文件（约 1 万行），不需要安装器、不写注册表，删掉文件夹就干净了
 - 界面：customtkinter；右侧有可折叠的后台任务栏（下载进度、✕ 取消）
 
+## 界面预览
+
+| 概览：一键启动 | 服务器管理：多服并存 |
+| --- | --- |
+| ![概览](screenshots/overview.png) | ![服务器管理](screenshots/servers.png) |
+| **控制台：日志 + 崩溃诊断 + 玩家指令** | **设置：主题 / 缩放 / Java / 自动重启** |
+| ![控制台](screenshots/console.png) | ![设置](screenshots/settings.png) |
+
 ## 功能
 
 | 页面 | 能干什么 |

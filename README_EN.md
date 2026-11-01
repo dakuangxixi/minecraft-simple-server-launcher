@@ -11,6 +11,14 @@ A Minecraft server launcher for people who would rather not touch a command line
 
 > The application UI itself is in Chinese. This English README exists so non-Chinese readers can understand what the project is.
 
+## Screenshots
+
+| Overview: one-click start | Servers: several servers side by side |
+| --- | --- |
+| ![Overview](screenshots/overview.png) | ![Servers](screenshots/servers.png) |
+| **Console: logs + crash diagnosis + player commands** | **Settings: theme / scale / Java / auto-restart** |
+| ![Console](screenshots/console.png) | ![Settings](screenshots/settings.png) |
+
 ## Features
 
 | Tab | What it does |
